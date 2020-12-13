@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="theme-color" content="#000000"/>
+    <title>Title</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div class="container">
+    <div class="block-form">
+        <input type="file" id="real-file" hidden="hidden">
+        <button type="button" id="custom-button" class="custom-button">Choose a file</button>
+        <span id='custom-text' class="custom-text">No file chosen, yet.</span>
+        <div class="section-preview" id="imagePreview">
+            <img src="" alt="Image preview" class="image-preview">
+            <span class="image-preview-text">Preview</span>
+        </div>
+    </div>
+    <div class="optimize-image"></div>
+    <div class="block-timer">
+        <p class="count-down" id="timer"></p>
+    </div>
+</div>
+<script src="./js/main.js"></script>
+</body>
+</html>
